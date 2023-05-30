@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>wasm2wasm2wasm</title>
+    <script src="wasm_exec.js"></script>
+    <script src="wasm2wasm2wasm.js"></script>
+
+</head>
+
+<body>
+    <h1>wasm2wasm2wasm: Go + Rust + Zig WASM Interop</h1>
+
+    <div>
+        a: <input type="number" id="a">
+        <br>
+        b: <input type="number" id="b">
+        <br>
+        r: <input type="number" id="r" readonly>
+        <br>
+        <button onclick="addWithGo()">Add with Go WASM</button>
+        <br>
+        <button onclick="subtractWithRust()">Sub with Rust WASM</button>
+        <br>
+        <button onclick="multiplyWithZig()">Mul with Zig WASM</button>
+    </div>
+</body>
+
+</html>
